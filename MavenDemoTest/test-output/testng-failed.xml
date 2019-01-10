@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ReportNGSelenium1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Catalog.qa.testcases.LoginTestcase">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testcase01"/>
+        </methods>
+      </class> <!-- com.Catalog.qa.testcases.LoginTestcase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [ReportNGSelenium1] -->

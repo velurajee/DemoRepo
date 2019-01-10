@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="9"
+           failures="1"
+           errors="0"
+           skipped="8"
+           time="0.000">
+  <properties />
+            <testcase name="setUp" time="0.000" classname="com.Catalog.qa.testcases.LoginTestcase">
+                <failure type="org.testng.TestNGException"
+                  message="
+Parameter &apos;browserName&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1411771641\testng-customsuite.xml"
+              >
+<![CDATA[org.testng.TestNGException: 
+Parameter 'browserName' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Admin\AppData\Local\Temp\testng-eclipse-1411771641\testng-customsuite.xml
+  org.testng.internal.Parameters.createParams(Parameters.java:290)
+  org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+  org.testng.internal.Parameters.createParameters(Parameters.java:620)
+  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="setUp" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="testcase01" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="testcase01" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+            <testcase name="testcase01" time="0.0" classname="com.Catalog.qa.testcases.LoginTestcase">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

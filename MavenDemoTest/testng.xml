@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="ReportNGSelenium1" verbose="1" >
+<listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+   </listeners>
+ <test name="ReportNGtest1" >
+    <classes>
+       <class name="com.Catalog.qa.testcases.LoginTestcase" />
+    </classes>
+  </test>
+ 
+</suite>
